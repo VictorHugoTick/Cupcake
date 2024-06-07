@@ -25,18 +25,33 @@ body {
 
 img {
   border-radius: 16px;
-  margin-bottom: 24px;
-}
+  }
+  
+  main {
+    padding: 24px;
+  }
 
 h1 {
   line-height: 140%;
   font-size: 40px;
   color: #291B1A;
+
+  margin-bottom: 4px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+section + section {
+  margin-top: 24px;
 }
 
 h2 {
   font-size: 24px;
   color: #291B1A;
+
+  margin-bottom: 4px;
 }
 
 p, ul {
@@ -44,6 +59,6 @@ p, ul {
   color: #573A37;
 }
 
-main {
-  padding: 0 24px 24px;
+ul {
+  padding-left: 24px;
 }
