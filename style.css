@@ -4,6 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(./assets/bg.jpg);
+  background-size: cover;
+}
+
+#page {
+  width: 800px;
+  
+  margin: 48px auto 28px;
+  padding: 24px;
+  border-radius: 24px;
+  
+  background-color: #F0E8C2;
+}
+
 img {
   border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+main {
+  padding: 0 24px 24px;
+}
+
+ul {
+  list-style: none;
 }
